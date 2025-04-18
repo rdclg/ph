@@ -1,0 +1,31 @@
+write PHP to Create table. Department [Dname, Dno, Number of faculty] in Database College..
+<?php
+
+$conn = new mysqli("localhost", "root", "", "College2"); 
+
+if ($conn->connect_error) {
+ die("Connection failed:" $conn->connect_error);
+}
+echo "Connected successfully to College2 database";
+
+$sql = "CREATE TABLE Departmen1 (
+
+Dno INT PRIMARY KEY, 
+Dname VARCHAR(100), 
+Number_of_faculty INT 
+)";
+
+if ($conn->query($sql) === TRUE) (
+
+echo "Table 'Department1' created successfully";
+} else {
+
+ echo "Error creating table:". $conn->error;
+}
+?>
+
+Output:
+
+Word to PDF
+
+Connected successfully to College2 database Table Department created successfully
