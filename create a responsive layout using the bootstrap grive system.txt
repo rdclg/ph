@@ -1,0 +1,62 @@
+create a responsive layout using the bootstrap grive system
+
+Program:-
+
+<!DOCTYPE html>
+
+<head>
+
+<title>Responsive Layout</title>
+
+<!-- Bootstrap CSS -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap/@5.3.0-alphal/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4 col-sm-12">
+
+<?php echo "<h2>Column 1</h2><p>First column content. </p>"; ?>
+
+</div>
+
+<div class="col-md-4 col-sm-12">
+
+<?php echo "<h2>Column 2</h2><p>Second column content. </p>"; ?>
+
+</div>
+
+<div class="col-md-4 col-sm-12">
+
+<?php echo "<h2>Column 3</h2><p>Third column content</p>"; ?>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alphal/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+Output:-
+Column 1          
+
+First column content.
+Column 2
+
+Second column content.
+Column 3
+
+Third column content
