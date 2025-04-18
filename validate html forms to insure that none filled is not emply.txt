@@ -1,0 +1,38 @@
+Use Javascript to validate html forms to insure that none filled is not emply before submission.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+</head>
+<body>
+
+  <h2>Simple Form Validation</h2>
+
+  <form onsubmit="return validateForm()">
+    Name: <input type="text" id="name"><br><br>
+    Email: <input type="text" id="email"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <p id="errorMsg" style="color: red;"></p>
+
+  <script>
+    function validateForm() {
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+      let error = document.getElementById("errorMsg");
+
+      if (name === "" || email === "") {
+        error.textContent = "Please fill in all fields.";
+        return false; // Stop form submission
+      } else {
+        error.textContent = "";
+        alert("Form submitted successfully!");
+        return true; // Allow form submission
+      }
+    }
+  </script>
+
+</body>
+</html>
