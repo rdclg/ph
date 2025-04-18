@@ -1,0 +1,23 @@
+Calculate factorial Series
+<?php
+
+function factorial($sum)
+
+if ($sum==0) {
+
+{ return $sum factorial($sum-1); }
+
+return 1;
+
+}else{
+
+}
+
+$number-6;
+
+echo" Factorial of $number is:".factorial ($number); ?>
+
+Output:-
+
+
+Factonal of 6 is 720
