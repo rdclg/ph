@@ -1,0 +1,27 @@
+Two numbers as parameter and return they're sums
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sum of Two Numbers</title>
+</head>
+<body>
+
+  <h2>Sum of Two Numbers</h2>
+
+  <script>
+    // Function that takes two numbers and returns their sum
+    function addNumbers(a, b) {
+      return a + b;
+    }
+
+    // Call the function with example numbers
+    let result = addNumbers(7, 5);
+
+    // Display the result on the page
+    document.write("The sum of 7 and 5 is: " + result);
+  </script>
+
+</body>
+</html>
+
+The sum of 7 and 5 is: 12
