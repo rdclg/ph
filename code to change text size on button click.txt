@@ -1,0 +1,24 @@
+Javascript code to change text size on button click
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Text Size</title>
+</head>
+<body>
+
+  <h2>Change Text Size Example</h2>
+
+  <!-- Paragraph with default text -->
+  <p id="text">This is some sample text.</p>
+
+  <!-- Button to change size -->
+  <button onclick="makeTextBig()">Click to Enlarge Text</button>
+
+  <script>
+    function makeTextBig() {
+      document.getElementById("text").style.fontSize = "30px";
+    }
+  </script>
+
+</body>
+</html>
