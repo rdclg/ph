@@ -1,0 +1,24 @@
+Javascript code, when you leave input field, a function transform the input to upper Case.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transform to Uppercase</title>
+</head>
+<body>
+
+  <h2>Type something and leave the input field to see it turn to uppercase:</h2>
+
+  <!-- Input field -->
+  <input type="text" id="myInput" onblur="transformToUppercase()">
+
+  <script>
+    function transformToUppercase() {
+      // Get the value of the input and transform it to uppercase
+      let inputField = document.getElementById("myInput");
+      inputField.value = inputField.value.toUpperCase();
+    }
+  </script>
+
+</body>
+</html>
