@@ -1,0 +1,33 @@
+Javascript code to show hidden HTML Element
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show Hidden Element</title>
+</head>
+<body>
+
+  <h2>Click the Button to Show the Hidden Text</h2>
+
+  <!-- Hidden paragraph -->
+  <p id="myText" style="display: none;">🎉 Surprise! Now you can see me!</p>
+
+  <!-- Button to show it -->
+  <button onclick="showText()">Show Text</button>
+
+  <script>
+    function showText() {
+      document.getElementById("myText").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
+Before clicking the button:
+
+[Show Text]
+
+After clicking the button:
+
+Surprise! Now you can see me!
+
+[Show Text]
