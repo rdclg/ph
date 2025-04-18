@@ -1,0 +1,31 @@
+Javascript code, to click the button to display the value of href attribute of link (www.google.com)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display href Attribute</title>
+</head>
+<body>
+
+  <h2>Click the Button to Display the Link's href</h2>
+
+  <!-- The link -->
+  <a id="myLink" href="https://www.google.com">Visit Google</a><br><br>
+
+  <!-- The button -->
+  <button onclick="showHref()">Show href</button>
+
+  <!-- Place to show the output -->
+  <p id="output"></p>
+
+  <script>
+    function showHref() {
+      // Get href value of the link
+      let hrefValue = document.getElementById("myLink").href;
+
+      // Display the value in the paragraph
+      document.getElementById("output").textContent = "Href value is: " + hrefValue;
+    }
+  </script>
+
+</body>
+</html>
