@@ -1,0 +1,33 @@
+diff object such as string, math, date.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Objects Example</title>
+</head>
+<body>
+
+  <h2>JavaScript Built-in Objects</h2>
+
+  <script>
+    // String object
+    let text = "Hello, World!";
+    let upper = text.toUpperCase();
+
+    // Math object
+    let num = Math.sqrt(16);
+
+    // Date object
+    let today = new Date();
+    let dateString = today.toDateString();
+
+    // Output all results
+    document.write("<b>String Example:</b> " + upper + "<br>");
+    document.write("<b>Math Example (sqrt of 16):</b> " + num + "<br>");
+    document.write("<b>Date Example:</b> " + dateString + "<br>");
+  </script>
+
+</body>
+</html>
+String Example: HELLO, WORLD!
+Math Example (sqrt of 16): 4
+Date Example: Fri Apr 18 2025   ← (will show current date)
