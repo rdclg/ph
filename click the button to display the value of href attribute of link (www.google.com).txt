@@ -29,3 +29,12 @@ Javascript code, to click the button to display the value of href attribute of l
 
 </body>
 </html>
+Before clicking the button:
+Visit Google
+
+[Show href]
+
+After clicking the button:
+
+Href value is: https://www.google.com
+
