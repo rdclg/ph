@@ -22,3 +22,9 @@ Javascript code to change text size on button click
 
 </body>
 </html>
+
+Before clicking the button:
+This is some sample text.
+[Click to Enlarge Text]
+After clicking the button:
+(This same text becomes larger 30px size!)
